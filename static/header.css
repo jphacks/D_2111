@@ -1,0 +1,93 @@
+header{
+  position: fixed;
+  top: 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 20px;
+   background: #092756;
+   height: 3rem;
+   z-index: 99;
+   font-size: 0.6rem;
+}
+header h2{
+   margin: 0;
+}
+header h2 a{
+   color: lightskyblue;
+}
+header .menu ul{
+   display: flex;
+   list-style: none;
+}
+.menu ul li{
+   margin-right: 20px;
+}
+header a{
+   text-decoration: none;
+}
+
+#footer {
+  background: #222;
+}
+
+.ie #footer .logo img,
+#footer .logo {
+  display: inline-block;
+  width: 120px;
+  font-size: 60px;
+  margin-left: 10%;
+  font-weight: bold;
+
+}
+a{
+   color: white;
+   text-decoration: none;
+}
+
+#footer .nav li a {
+  padding: 15px;
+  color: #ccc;
+}
+
+#footer .c-btn {
+  margin-left: 25px;
+}
+
+
+@media screen and (min-width: 641px) {
+  #footer .logo {
+    padding: 10px 0;
+  }
+
+  #footer .wrap {
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #footer .list {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 5%;
+    font-size: larger;
+
+  }
+
+  #footer .nav {
+    display: inline-block;
+  }
+
+  #footer .nav li {
+    display: inline-block;
+  }
+
+  #footer .nav li a:hover {
+    color: rgb(107, 233, 255);
+  }
+}
